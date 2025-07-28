@@ -12,13 +12,13 @@ const Home = () => {
         <div className="trafficL">
             <div onClick={() => setSelectedColor("red") } 
 
-            className={"light red mb-2" + (selectedColor === "red" ? "glow" : "")}></div>
+            className={"light red mb-2" + (selectedColor === "red" ? " glow" : "")}></div>
 
             <div onClick={() => setSelectedColor("yellow") }
-            className={"light yellow " + (selectedColor === "yellow" ? "glow" : "")}></div>
+            className={"light yellow " + (selectedColor === "yellow" ? " glow" : "")}></div>
 
             <div onClick={() => setSelectedColor("green") }
-             className={"light green  mt-2" + (selectedColor === "green" ? "glow" : "") }></div>
+             className={"light green  mt-2" + (selectedColor === "green" ? " glow" : "") }></div>
 
         </div>
     ); 
